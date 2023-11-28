@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversor de Moedas - Marcos Santos</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+	<div class="degrade">
+		<div class="outer-container">
+			<div class="social-icons">
+				<a href ="https://github.com/mvrcos-santos" target="_blank"><i class="fab fa-github"></i></a>
+				<a href ="http://www.facebook.com/mrcsxv" target="_blank"><i class="fab fa-facebook"></i></a>
+				<a href = "http://x.com" target="_blank"><i class="fab fa-twitter"></i></a>
+				<a href = "http://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+				<a href = "http://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+				<a href ="http://www.last.fm/tonificar" target="_blank"><i class="fab fa-lastfm"></i></a>
+			</div>
+		</div>
+		<div class="conversorMoedas">
+			<h2 align="center">Conversor de Moedas com API pública "ExchanGerate"</h2>
+
+		<label for="valor">Digite o valor em reais:</label>
+		<input type="number" id="valor" placeholder="Digite o valor em reais">
+
+		<label for="moeda">Escolha a moeda:</label>
+		<select id="moeda">
+			<option value="USD">Dólar (USD)</option>
+			<option value="EUR">Euro (EUR)</option>
+			<option value="GBP">Libra Esterlina (GBP)</option>
+			<option value="JPY">Iene (JPY)</option>
+			<option value="ARS">Peso Argentino (ARS)</option>
+		</select>
+		<br>
+		<button id="convertButton">Converter</button>
+		<div class="result-container">
+		<div id="result"></div>
+	</div>
+	</div>
+	<div class="result-container">
+		<div id="result"></div>
+	</div>
+	
+	
+</div>
+  <script src="./js/script.js"></script>
+  <footer>
+        Desenvolvido por Marcos Santos no Curso de Programador Front-End com o <a href="https://sammyfreitas.github.io/portfolioSite/">Prof. Anthony de Freitas<a/>.<br/>Todos os direitos reservados - Senai Maracanã - 2023 ©
+    </footer>
+</body>
+</html>
